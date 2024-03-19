@@ -1,0 +1,56 @@
+body{
+    /* make the background image */
+    background-image: url('https://media.istockphoto.com/id/537471191/photo/white-gray-abstract-background.jpg?s=612x612&w=0&k=20&c=ikh5RTV2BKS9MwU3XBcXQU3xtpaibYus3TcJ8nG3gUw=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking-title{
+    /* make the title of the form */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: black;
+    margin-left: 10%;
+}
+.appointment-form{
+    /* make a box where all the details will go */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin-right: 10%;
+
+}
+.lebel-names{
+    margin-top: 5%;
+}
+.submit-btn{
+    /* make the submit button */
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}

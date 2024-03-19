@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Panel</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 class="booking-title">Book an Appointment</h1>
+    <div class="appointment-form">
+        <form id="appointment_form" action="submit_appointment.php" method="post">
+            <div class="lebel-names">
+                <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+            <br><br>
+            <label for="car_color">Car Color:</label>
+            <input type="text" id="car_color" name="car_color" required>
+            <br><br>
+            <lebel for="car_license">Car License No.:</lebel>
+            <input type="text" id="car_license" name="car_license" required>
+            <br><br>
+            <lebel for="car_engine">Car Engine No.:</lebel>
+            <input type="text" id="car_engine" name="car_engine" required>
+            <br><br>
+            <label for="appointment_date">Appointment Date:</label>
+            <input type="date" id="appointment_date" name="appointment_date" required>
+            <br><br>
+            <lebel for="mechanic">Mechanic:</lebel>
+            <select id="mechanic" name="mechanic" required>
+                <option value="1">Mechanic 1</option>
+                <option value="2">Mechanic 2</option>
+                <option value="3">Mechanic 3</option>
+                <option value="4">Mechanic 4</option>
+            </select>
+            <br><br>
+            <button class="submit-btn" type="submit">Submit</button>
+            </div>
+    
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
