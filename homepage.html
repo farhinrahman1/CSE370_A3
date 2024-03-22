@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <header>
-        <h1 class="homepage-title">Welcome to the Car Service Center</h1>
-        <div class="homepage-content">
-            <p>Our services include:</p>
-            <ul>
-                <li>Car wash</li>
-                <li>Oil change</li>
-                <li>Engine repair</li>
-                <li>Car painting</li>
-                <li>Car servicing</li>
-            </ul>
-            <p>For booking an appointment, click <a href="appointment.html">here</a></p>
-            <p>For admin panel, click <a href="admin.html">here</a></p>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar">
+                <h1>CarService</h1>
+                <div class="nav-section">
+                    <button class="home"><a href="homepage.html">Home</a></button>
+                    <button class="login"><a href="login.html">Login</a></button>
+                    <button class="signup"><a href="signup.html">SignUp</a></button>
+                    <button class="contact"><a href="contact.html">Contact</a></button>
+                </div>
+            </div>
         </div>
-    </header>
+        <div class="home-content">
+            <div class="home-text">
+                <h1>Welcome to CarService</h1>
+                <!-- short description -->
+                <p>CarService is a platform that connects car owners with car service providers. It is a platform that allows car owners to book car services online. It is a platform that allows car service providers to list their services online.</p>
+                <button class="welcome"><a href="signup.html">Get Started</a></button>
+                <button class="welcome"><a href="appointment.html">Book an Appointment</a></button>
+                <button class="welcome"><a href="admin.html">Admin Panel</a></button>
+        </div>
+
+    </div>
+    
 </body>
 </html>

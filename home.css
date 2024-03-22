@@ -1,0 +1,108 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/537471191/photo/white-gray-abstract-background.jpg?s=612x612&w=0&k=20&c=ikh5RTV2BKS9MwU3XBcXQU3xtpaibYus3TcJ8nG3gUw=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.nav-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    padding-left: 550px;
+    margin-right: 20px;
+}
+.home{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.login{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.signup{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.signup a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.contact{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+.home-content h1{
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 5%;
+}
+.home-content p{
+    font-size: 1.5rem;
+    color: black;
+}
+.welcome{
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.welcome a{
+    text-decoration: none;
+    color: black;
+}
