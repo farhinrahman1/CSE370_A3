@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Panel</title>
+    <title>Book an Appointment</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <h1 class="booking-title">Book an Appointment</h1>
     <div class="appointment-form">
-        <form id="appointment_form" action="submit_appointment.php" method="post">
+        <form id="appointment_form" action="submit_appointment.php" name="appointment_form" method="post">
             <div class="lebel-names">
-                <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="Farhin" required>
             <br><br>
             <label for="phone">Phone:</label>
             <input type="text" id="phone" name="phone" required>
@@ -38,7 +38,7 @@
                 <option value="4">Mechanic 4</option>
             </select>
             <br><br>
-            <button class="submit-btn" type="submit">Submit</button>
+            <button class="submit-btn" type="button" onclick="createAppointment()">Submit</button>
             </div>
     
         </form>

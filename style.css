@@ -54,3 +54,117 @@ body{
     cursor: pointer;
     font-weight: bold;
 }
+.container{
+    /* make the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5%;
+}
+.sidebar{
+    /* make the sidebar */
+    width: 20%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 20%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+.admin{
+    /* make the admin title */
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.adminlist{
+    /* make the list of the admin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+}
+.sidebar li{
+    /* make the list items */
+    list-style: none;
+    margin: 10px 0;
+
+}
+.adminlist a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.sidebar a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.midpart{
+    width: 90%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    gap: 100px;
+}
+.card h3{
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.card button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.card p{
+    font-size: 1rem;
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.appoitnmentlist{
+    display: flex;
+    flex-direction: column;
+}
+.appoitnmentlist tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    gap: 100px;
+}
