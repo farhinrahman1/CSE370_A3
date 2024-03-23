@@ -74,7 +74,7 @@ body{
     color: black;
     font-size: 1rem;
 }
-.home-content{
+.login-content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,27 +82,66 @@ body{
     flex-direction: column;
     text-align: center;
 }
-.home-content h1{
-    font-size: 3rem;
-    color: black;
-    margin-bottom: 5%;
-}
-.home-content p{
-    font-size: 1.5rem;
-    color: black;
-}
-.welcome{
+.user{
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
-    margin-bottom: 5%;
-    margin-top: 5%;
     margin-right: 2%;
-    padding: 10px 20px;
+    padding: 5px 10px;
     border-radius: 5px;
     text-align: center;
 }
-.welcome a{
+.pass{
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.log{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.remember-forget a{
     text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signup{
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    margin-top: 5%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+    color: black;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 1rem;
+}
+.login-content h1{
+    font-size: 2rem;
     color: black;
 }
