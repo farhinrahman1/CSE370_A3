@@ -87,7 +87,7 @@ body{
     color: black;
     margin-bottom: 5%;
 }
-.home-content p{
+.home-content pre{
     font-size: 1.5rem;
     color: black;
 }
