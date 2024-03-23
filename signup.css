@@ -50,14 +50,6 @@ body{
     color: black;
     font-size: 1rem;
 }
-.login-text h1{
-    font-size: 1rem;
-    color: white;
-}
-.login-content{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
 .signup1{
     background-color: white;
     padding: 10px 20px;
@@ -82,15 +74,23 @@ body{
     color: black;
     font-size: 1rem;
 }
-.login-content{
+.signup-section{
+    /* full in a box */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
-    flex-direction: column;
-    text-align: center;
+    /* make it beautiful */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 .user{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+.email{
     width: 300px;
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px;
@@ -102,52 +102,27 @@ body{
     padding: 15px;
     border-radius: 5px;
 }
-.log{
-    background-color: white;
+.sign{
+    width: 100px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 110px;
     font-size: 1rem;
-    color: black;
-    margin-top: 5%;
-    margin-right: 2%;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-align: center;
+    font-weight: bold;
 }
-.remember-forget a{
+.login1 a{
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    /* beautiful login1 button */
     background-color: white;
-    color: black;
-    margin-top: 5%;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-.signup{
-    background-color: white;
-    font-size: 1rem;
-    color: black;
-    margin-top: 5%;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-.signup a{
-    text-decoration: none;
-    color: black;
-    background-color: black;
-    color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-right: 20px;
     font-size: 1rem;
-}
-.login-content h1{
-    font-size: 2rem;
-    color: black;
-}
-.login-content h1{
-    color: white;
-    margin-top: 0;
-    margin-right: 100%;
+    font-weight: bold;
+    margin-left: 10px;
+    border: 1px solid black;
 }
