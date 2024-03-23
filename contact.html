@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar">
+            <h1>CarService</h1>
+            <div class="nav-section">
+                <button class="home"><a href="index.html">Home</a></button>
+                <button class="login"><a href="login.html">Login</a></button>
+                <button class="signup1"><a href="signup.html">SignUp</a></button>
+                <button class="contact"><a href="contact.html">Contact</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="contact-section">
+        <div class="contact-text">
+            <h1>Contact Us</h1>
+            <form action="contact.php" method="post">
+                <input  type="text" name="name" class="contact-form" placeholder="Your Name" required><br>
+                <input type="email" name="email" class="contact-form" placeholder="Your Email" required><br>
+                <textarea name="message" class="contact-form" placeholder="Message" required></textarea><br>
+                <button type="submit" class="send">Send</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/537471191/photo/white-gray-abstract-background.jpg?s=612x612&w=0&k=20&c=ikh5RTV2BKS9MwU3XBcXQU3xtpaibYus3TcJ8nG3gUw=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.nav-section{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    padding-left: 550px;
+    margin-right: 20px;
+}
+.home{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.login{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.signup1{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.signup1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.contact{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+.contact-section{
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.contact-form{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.send{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+}
